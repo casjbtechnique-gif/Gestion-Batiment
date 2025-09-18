@@ -1,0 +1,29 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+#etages {
+    display: flex;
+    gap: 20px;
+}
+.etage {
+    width: 150px;
+    height: 100px;
+    background-color: #ccc;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+.local {
+    width: 120px;
+    height: 80px;
+    background-color: #8f8;
+    margin: 10px;
+    text-align: center;
+    line-height: 80px;
+    cursor: pointer;
+}
+.local.probleme {
+    background-color: #f88;
+}
